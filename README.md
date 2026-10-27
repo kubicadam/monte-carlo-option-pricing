@@ -105,6 +105,6 @@ Possible next steps include comparing seeds, varying volatility and strike price
 
 ## Project development and my contribution
 
-I initiated this project to explore how Python and numerical methods can be applied to a problem in quantitative finance. I helped shape the objectives and requirements, including a focus on NumPy, a mathematical explanation that matches my physics background, readable code, reproducible examples and clear visualisations. I also gave feedback on the scope, coding style and presentation as the project developed.
+I chose this project to connect the mathematics and numerical computing I have been learning in Engineering Physics with a practical problem in quantitative finance. I defined the learning goals, helped shape the scope of the analysis, and gave feedback on the mathematical explanations, coding style and presentation of the results.
 
-AI assistance was used to prepare the first version of the code and documentation and to check numerical calculations. The implementation and assumptions are available here for review and further development.
+I worked with AI to develop the initial Python implementation and support the numerical calculations and checks. I am using the model to deepen my understanding of Monte Carlo methods and work towards building similar simulations independently.
