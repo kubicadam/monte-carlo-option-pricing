@@ -48,7 +48,7 @@ python plots.py
 
 ## Project development and my contribution
 
-I initiated this project to explore how Python and numerical methods can be applied to a problem in quantitative finance. I helped shape the objectives and requirements, including a focus on NumPy, mathematical explanations suited to my Engineering Physics background, readable code, reproducible examples and clear visualisations. I also gave feedback on the scope, coding style and presentation as the project developed.
+I initiated this project to explore how Python and numerical methods can be applied to a problem in quantitative finance. I helped shape the objectives and requirements, including a focus on NumPy, mathematical explanations suited to my Engineering Physics background, readable code, reproducible examples and clear visualisations.
 
 I was particularly interested in the mathematical assumptions behind the lognormal price model, the relationship between Monte Carlo estimates and their statistical uncertainty, and comparison with the Black–Scholes benchmark. I wanted the analysis to explain not only the calculated values, but also what Delta, Value at Risk and Expected Shortfall mean under the chosen assumptions.
 
