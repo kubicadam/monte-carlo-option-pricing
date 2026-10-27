@@ -103,4 +103,8 @@ Possible next steps include comparing seeds, varying volatility and strike price
 - [checks.py](checks.py) – elementary numerical checks
 - [MATH_NOTES.md](notes/MATH_NOTES.md) – assumptions and definitions
 
-**Development note:** AI was used to prepare the initial implementation and help verify numerical calculations. The model assumptions, code and reproducible results are available in this repository.
+## Project development and my contribution
+
+I initiated this project to explore how Python and numerical methods can be applied to a problem in quantitative finance. I helped shape the objectives and requirements, including a focus on NumPy, a mathematical explanation that matches my physics background, readable code, reproducible examples and clear visualisations. I also gave feedback on the scope, coding style and presentation as the project developed.
+
+AI assistance was used to prepare the first version of the code and documentation and to check numerical calculations. The implementation and assumptions are available here for review and further development.
