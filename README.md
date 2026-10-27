@@ -58,6 +58,28 @@ Parameters: initial price 100, strike 105, interest rate 3%, assumed physical re
 
 These numbers correspond to the reproducible base experiment; generated figures show convergence, final prices, loss distribution and sample paths.
 
+## Visual results
+
+The figures below use the same model parameters and seeded numerical samples as the current Python implementation. The repository also includes `plots.py`, which can generate PNG versions locally.
+
+**1. Convergence of the Monte Carlo estimate**
+
+![Monte Carlo estimate approaching Black-Scholes price](results/01_convergence.svg)
+
+**2. Simulated terminal prices**
+
+![Histogram of 50,000 terminal prices](results/02_final_prices.svg)
+
+**3. Simulated losses, Value at Risk and Expected Shortfall**
+
+![Histogram of simulated losses with 95 percent risk thresholds](results/03_risk.svg)
+
+**4. Selected simulated price paths**
+
+![Six illustrative price paths from the simulated set](results/04_paths.svg)
+
+The fourth SVG displays six selected paths for legibility; `plots.py` can generate a PNG displaying all 25 paths.
+
 ## Conclusions
 
 The Monte Carlo estimate was close to the analytical Black-Scholes price: the difference was about **0.0204 CU**, smaller than the estimated standard error. The analytical value also fell within the approximate confidence interval.
@@ -81,4 +103,4 @@ Possible next steps include comparing seeds, varying volatility and strike price
 - [checks.py](checks.py) – elementary numerical checks
 - [MATH_NOTES.md](notes/MATH_NOTES.md) – assumptions and definitions
 
-**Development disclosure:** Initial code and documentation were developed with AI assistance as a prototyping and learning tool. The numerical outputs can be reproduced from the published code. The work should be reviewed and understood before being presented as a personal portfolio achievement.
+**Development note:** The first implementation and documentation were produced with AI assistance. The displayed numerical examples were subsequently reproduced from the published Python model. Independent changes and reviews can be tracked in the repository history.
