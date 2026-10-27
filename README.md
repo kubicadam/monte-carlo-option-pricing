@@ -46,6 +46,10 @@ python plots.py
 
 `plots.py` saves PNG charts in `results/`. See [source code](monte_carlo.py) and [plotting script](plots.py).
 
-## Project development
+## Project development and my contribution
 
-I defined the project's goals and analytical scope, chose the focus on Python/NumPy and reproducible examples, and gave feedback on the presentation of the results. The initial Python implementation was developed with AI assistance to accelerate prototyping. I am using the project to deepen my numerical programming skills and learn to develop similar simulations independently.
+I initiated this project to connect the mathematics and numerical computing I have been learning in Engineering Physics with a practical problem in quantitative finance. I defined the learning goals and helped shape the analytical scope, focusing on the mathematical assumptions behind the price model, probability distributions, Monte Carlo estimation, statistical uncertainty and the interpretation of option values and risk measures.
+
+I also set requirements for mathematical explanations suited to my physics background, readable NumPy-based code, reproducible calculations and clear visualisations. I gave feedback on the scope, coding style and presentation of the results as the project developed.
+
+I worked with AI on the initial Python implementation to accelerate prototyping, while using the project to develop the skills to build similar models independently.
