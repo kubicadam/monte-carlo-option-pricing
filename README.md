@@ -103,4 +103,4 @@ Possible next steps include comparing seeds, varying volatility and strike price
 - [checks.py](checks.py) – elementary numerical checks
 - [MATH_NOTES.md](notes/MATH_NOTES.md) – assumptions and definitions
 
-**Development note:** The first implementation and documentation were produced with AI assistance. The displayed numerical examples were subsequently reproduced from the published Python model. Independent changes and reviews can be tracked in the repository history.
+**Development note:** AI was used to prepare the initial implementation and help verify numerical calculations. The model assumptions, code and reproducible results are available in this repository.
